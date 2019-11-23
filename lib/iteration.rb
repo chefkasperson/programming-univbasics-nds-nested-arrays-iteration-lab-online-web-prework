@@ -1,5 +1,7 @@
 def join_ingredients(src)
+  
   count = 0
+  
   while array_1[count] < array_1.count do
     array_1[count] = ("I love" + array_1[count][0] + "and" +array_1[count][1] + "on my pizza"
     count += 1
