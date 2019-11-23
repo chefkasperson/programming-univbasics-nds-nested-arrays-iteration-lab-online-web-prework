@@ -1,4 +1,10 @@
 def join_ingredients(src)
+  count = 0
+  while array_1[count] < array_1.count do
+    array_1[count] = ("I love" + array_1[count][0] + "and" +array_1[count][1] + "on my pizza"
+    count += 1
+  end
+  
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
